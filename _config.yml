@@ -1,0 +1,62 @@
+# Theme
+remote_theme: mmistakes/minimal-mistakes@4.26.2
+minimal_mistakes_skin: air
+
+# Site
+title: "Fidelity National Software"
+subtitle: "Modern tools for modern agencies"
+description: "AgencyHub is the all-in-one insurance agency management platform built for the way agencies work today."
+url: "https://fnrhombus.github.io"
+baseurl: "/fnwebsite"
+repository: "fnrhombus/fnwebsite"
+
+# Build
+markdown: kramdown
+permalink: pretty
+
+include:
+  - _pages
+
+# Plugins
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-include-cache
+
+# Search
+search: true
+
+# Author (company info in sidebar)
+author:
+  name: "Fidelity National Software"
+  bio: "Building the future of insurance agency management."
+  location: "Austin, TX"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/fnrhombus"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "#"
+
+# Footer
+footer:
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/fnrhombus"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "#"
+
+# Defaults
+defaults:
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: false
