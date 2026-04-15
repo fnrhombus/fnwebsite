@@ -4,7 +4,7 @@ title: "About Fidelity National Software"
 permalink: /about/
 ---
 
-## Our Story
+## Our Storry
 
 Fidelity National Software was founded in 2018 by a team of insurance industry veterans and software engineers who saw a gap in the market: the tools agencies depended on every day were built in the 1990s and hadn't meaningfully evolved since.
 
